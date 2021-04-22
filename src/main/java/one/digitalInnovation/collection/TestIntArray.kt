@@ -12,7 +12,7 @@ fun main() {
     for (value in values){
         println(value)
     }
-    
+
     println("Iterando pelo forEach.")
     values.forEach {
         println(it)
