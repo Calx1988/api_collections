@@ -21,5 +21,7 @@ fun main() {
     val salarioMenorQue2500=salarios.filter { it<2500.00 }
     println("Quantidade de salários menores que R$2.500,00:")
     println(salarioMenorQue2500.count())
+    println("Quantidade de salários entre R$1.600.00 e R$3.000,00:")
+    println(salarios.count{it in 1600.00..3000.00})
 
 }
