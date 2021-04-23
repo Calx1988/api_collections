@@ -23,7 +23,8 @@ fun main() {
 
     println("\n--------------Removing Maria T and displaying all-----------\n")
     //why not working???
-    // repository.remove(f4.name)
+    // Got it! I can use extended functions.
+    repository.remove(f4.name)
     println(repository.findAll())
 
 }
