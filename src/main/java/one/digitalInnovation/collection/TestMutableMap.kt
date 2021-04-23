@@ -17,4 +17,13 @@ fun main() {
     repository.create(f4.name,f4)
     repository.create(f5.name,f5)
     println(repository.findById(f2.name))
+
+    println("\n--------------Displaying all data-----------\n")
+    println(repository.findAll())
+
+    println("\n--------------Removing Maria T and displaying all-----------\n")
+    //why not working???
+    // repository.remove(f4.name)
+    println(repository.findAll())
+
 }

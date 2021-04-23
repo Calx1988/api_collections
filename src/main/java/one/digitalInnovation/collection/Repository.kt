@@ -6,4 +6,6 @@ class Repository<T> {
         map[id]=value
     }
     fun findById(id: String)=map[id]
+
+    fun findAll()=map.values
 }
